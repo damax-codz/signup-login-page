@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up /login page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e330e8926.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="signlog.css">
+    <script src="signlog.js"></script>
+</head>
+<body>
+    <div class="main-container">
+
+        <div class="pics-container">
+           <p class="join">JOIN THE DAMAX COMMUNITY TODAY FOR FREE</p>
+           <img src="join.png" alt="join damax"class="joinimg">
+        </div>
+        <div class="form-container">
+            <div class="form">
+                <div class="names"><button class="signup" onclick="signfunc()">sign up</button> <button class="login" onclick="logfunc()">login</button></div>
+            <form action="" id="format">
+            <label for="username"></label><br>
+                <i class="far fa-user" id="usericon"></i>
+                <input type="text" id="username" placeholder="  Username"><br>
+            <label for="email"></label><br>
+                <i class="far fa-envelope"></i>
+                <input type="email" id="email" placeholder="  Email"><br>
+            <label for="password"></label><br>
+               <i class="fas fa-key"></i>
+                <input type="password" id="password" placeholder="  Password"><br>
+            </form>
+            <button class="submit">submit</button>
+            <p>or</p>
+            <div class="images">
+                <img src="google.png" alt="" class="icon">
+                <img src="twitter.png" alt="" class="icon">
+                <img src="fb.png" alt="" class="icon">
+            </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
